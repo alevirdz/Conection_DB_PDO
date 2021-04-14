@@ -26,3 +26,10 @@ $database = 'Name_database';
 $username = 'root';
 $password = 'root';
 ````
+
+# Ver la configuración phpMyAdmin
+
+En esta imagen se muestra ilustrativamente las configuraciones que tiene el phpMyAdmin
+donde se podra observar el puerto, usuario, contraseña y host de la configuración del mismo.
+
+<img alt="configuration-bd" width="845" height="370" src="https://user-images.githubusercontent.com/80425451/114646156-5cc44880-9ca0-11eb-91c3-ff816a4fcb30.png">
