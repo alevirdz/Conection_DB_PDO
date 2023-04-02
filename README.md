@@ -1,35 +1,35 @@
-# Conection DB
+# DB connection
 
-Configuraciones de las variables para realizar una conexion 
-en la base de datos MySql en Sistema operativo Mac OS y Linux
-utilizando los puertos y el socket que proporciona MAMP.
+Variable configurations to make a connection
+in MySql database in Mac OS and Linux operating system
+using the ports and socket provided by MAMP.
 
-En el caso de Windows la conexion es más rapida y sin configurar
-los puertos y el socket
+In the case of Windows, the connection is faster and without configuring
+ports and socket
 
 
-# Mac OS y Linux
+# Mac OS and Linux
 
 ````
-$server   = 'localhost';
+$server = 'localhost';
 $database = 'Name_database';
 $username = 'root';
 $password = 'root';
-$puerto   = '3306';
-$socket   = '/Applications/MAMP/tmp/mysql/mysql.sock';
+$port = '3306';
+$socket = '/Applications/MAMP/tmp/mysql/mysql.sock';
 ````
 # Windows
 
 ````
-$server   = 'localhost';
+$server = 'localhost';
 $database = 'Name_database';
 $username = 'root';
 $password = 'root';
 ````
 
-# Ver la configuración phpMyAdmin
+# View the phpMyAdmin configuration
 
-En esta imagen se muestra ilustrativamente las configuraciones que tiene el phpMyAdmin
-donde se podra observar el puerto, usuario, contraseña y host de la configuración del mismo.
+This image shows illustratively the configurations that phpMyAdmin has
+where you can see the port, user, password and host of its configuration.
 
-<img alt="configuration-bd" width="845" height="370" src="https://user-images.githubusercontent.com/80425451/114646156-5cc44880-9ca0-11eb-91c3-ff816a4fcb30.png">
+<img alt="configuration-bd" width="845" height="370" src="https://user-images.githubusercontent.com/80425451/114646156-5cc44880-9ca0-11eb-91c3-ff816a4fcb30.png" >
